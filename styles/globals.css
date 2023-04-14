@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Montserrat:wght@300;400;600&display=swap');
+
+
+.heading {
+    font-family: 'Explora', cursive;
+}
+
+.title {
+    font-family: 'Ms Madi', cursive;
+}
+
+.tracking {
+    background: url("/../assets/trackking.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.guide{
+    background: url("/../assets/guide.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
