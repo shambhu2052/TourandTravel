@@ -6,9 +6,9 @@ const FixedDeparture = () => {
             <div className='container mx-auto pb-[60px]'>
                 <div className='flex items-center justify-center flex-col'>
                     <img src="/../assets/hotel.svg" alt="" />
-                    <h1 className='font-montserrat text-[#2C2C2C] text-[40px] font-bold leading-[48.76px]'>Fixed Departures</h1>
+                    <h1 className='font-montserrat text-[#2C2C2C] text-[40px]  text-center font-bold leading-[48.76px]'>Fixed Departures</h1>
                 </div>
-                <div className='grid grid-cols-4 gap-[26px] mt-[50px]'>
+                <div className='grid md:grid-cols-4 grid-cols-1 w-full gap-[26px] mt-[50px] px-[15px] md:px-0'>
                     <div className='w-full'>
                         <div>
                             <img src="/../assets/departure1.png" className='cursor-pointer w-full' alt="" />

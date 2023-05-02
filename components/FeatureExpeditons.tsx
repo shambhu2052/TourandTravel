@@ -15,20 +15,46 @@ const FeatureExpeditons = () => {
 
         slidesToShow: 3,
         slidesToScroll: 3,
+        responsive: [
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: true
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+                    initialSlide: 2
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1
+                }
+            }
+        ]
         // nextArrow: <SampleNextArrow />,
         // prevArrow: <SamplePrevArrow />,
     };
     return (
         <div>
-            <div className='container  mx-auto pt-[31px] pb-[62px]'>
+            <div className='container  mx-auto pt-[31px] pb-[62px] overflow-hidden'>
                 <div className='flex items-center justify-center flex-col'>
                     <img src="/../assets/hotel.svg" alt="" />
-                    <h1 className='font-montserrat text-[#2C2C2C] text-[40px] font-bold leading-[48.76px]'>Featured Expeditions</h1>
+                    <h1 className='font-montserrat text-[#2C2C2C] text-[40px] font-bold text-center leading-[48.76px]'>Featured Expeditions</h1>
                 </div>
-                <div className='mt-[74px]'>
+                <div className='mt-[74px] px-[15px] md:px-0'>
                     <Slider {...settings} className="">
                         <div className='h-[710px] rounded-[10px] '>
-                            <div className='h-[710px] w-[96%]  cursor-pointer rounded-[10px] relative overflow-hidden'>
+                            <div className='h-[710px] md:w-[96%]  cursor-pointer rounded-[10px] relative overflow-hidden'>
                                 <p className='h-[52px] w-[136px] absolute z-40 top-[0px] left-[50%] transform translate-x-[-50%] bg-[#53974A] flex items-center justify-center text-white text-[20px] leading-[24.8px] font-bold font-montserrat'>50% OFF</p>
                                 <img src="/../assets/pokhara2.png" alt="" className='h-[100%] w-full object-cover rounded-[10px] hover:scale-[108%] transform transition-all duration-300 ease-out' />
                                 <div className='absolute left-[50%] transform translate-x-[-50%] bottom-[20px] w-full pl-[14px]'>
@@ -43,7 +69,7 @@ const FeatureExpeditons = () => {
 
                         </div>
                         <div className='h-[710px] rounded-[10px]'>
-                            <div className='h-[710px] w-[96%] cursor-pointer rounded-[10px] relative overflow-hidden'>
+                            <div className='h-[710px] md:w-[96%] cursor-pointer rounded-[10px] relative overflow-hidden'>
                                 <img src="/../assets/pokhara2.png" alt="" className='h-[100%] w-full object-cover rounded-[10px] hover:scale-[108%] transform transition-all duration-300 ease-out' />
                                 <div className='absolute left-[50%] transform translate-x-[-50%] bottom-[20px] w-full pl-[14px]'>
                                     <div className='flex items-center gap-[14px]'>
@@ -57,8 +83,8 @@ const FeatureExpeditons = () => {
                             </div>
                         </div>
                         <div className='h-[710px] rounded-[10px]'>
-                            <div className='h-[710px] w-[96%] cursor-pointer rounded-[10px] relative overflow-hidden'>
-                            <p className='h-[52px] w-[136px] absolute z-40 top-[0px] left-[50%] transform translate-x-[-50%] bg-[#53974A] flex items-center justify-center text-white text-[20px] leading-[24.8px] font-bold font-montserrat'>50% OFF</p>
+                            <div className='h-[710px] md:w-[96%] cursor-pointer rounded-[10px] relative overflow-hidden'>
+                                <p className='h-[52px] w-[136px] absolute z-40 top-[0px] left-[50%] transform translate-x-[-50%] bg-[#53974A] flex items-center justify-center text-white text-[20px] leading-[24.8px] font-bold font-montserrat'>50% OFF</p>
 
                                 <img src="/../assets/pokhara2.png" alt="" className='h-[100%] w-full object-cover rounded-[10px] hover:scale-[108%] transform transition-all duration-300 ease-out' />
                                 <div className='absolute left-[50%] transform translate-x-[-50%] bottom-[20px] w-full pl-[14px]'>
@@ -73,7 +99,7 @@ const FeatureExpeditons = () => {
                             </div>
                         </div>
                         <div className='h-[710px] rounded-[10px]'>
-                            <div className='h-[710px] w-[96%] cursor-pointer rounded-[10px] relative overflow-hidden'>
+                            <div className='h-[710px] md:w-[96%] cursor-pointer rounded-[10px] relative overflow-hidden'>
                                 <img src="/../assets/pokhara2.png" alt="" className='h-[100%] w-full object-cover rounded-[10px] hover:scale-[108%] transform transition-all duration-300 ease-out' />
                                 <div className='absolute left-[50%] transform translate-x-[-50%] bottom-[20px] w-full pl-[14px]'>
                                     <div className='flex items-center gap-[14px]'>

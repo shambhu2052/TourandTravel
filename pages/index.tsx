@@ -24,8 +24,7 @@ export default function Home() {
         {/* <title>hello this is title</title> */}
       </Head>
       {/* COMPONENTS GOES DOWN  HERE */}
-      <Topbar />
-      <Navbar />
+ 
       <Carousel />
       <FeatureGuides />
       <TrekkingDestination />
@@ -35,7 +34,7 @@ export default function Home() {
       <ComfortablePlace />
       <Book />
       <Partners />
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }

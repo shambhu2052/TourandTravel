@@ -2,14 +2,14 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className='bg-[#1D2023]'>
-            <div className='container mx-auto flex py-[80px] gap-[120px]'>
+        <div className='bg-[#1D2023] px-[15px] md:px-0'>
+            <div className='container mx-auto flex lg:flex-row flex-col py-[80px] lg:gap-[49px] xl:gap-[120px] gap-[30px]'>
                 <div className='basis-[30%]'>
                     <img src="/../assets/footerlogo.png" alt="" />
                     <p className='text-[#DBE3F1]/[0.9] text-[18px] leading-[28.8px] font-normal max-w-[387px] mt-[24px]'>Lorem Ipsum is simply dummy text of free available in market the printing and typesetting industry has been.</p>
 
                 </div>
-                <div className='basis-[70%] grid grid-cols-3'>
+                <div className='basis-[70%] grid md:grid-cols-3 grid-cols-2 gap-[30px] lg:gap-0 mt-[30px] lg:mt-[0px]'>
                     <div>
                         <h2 className='text-[20px] text-white leading-[32px] font-bold font-montserrat mb-[22px]'>Quick Links</h2>
                         <div className='space-y-[25px] opacity-[0.8]'>

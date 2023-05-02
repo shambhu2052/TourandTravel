@@ -19,7 +19,8 @@ module.exports = {
       fontFamily: {
         'madi': ['Ms Madi', 'cursive'],
         'montserrat': ['Montserrat', 'sans-serif'],
-        'lora': ['Explora', 'cursive']
+        'lora': ['Explora', 'cursive'],
+        'roboto':['Roboto', 'sans-serif']
       }
     },
   },

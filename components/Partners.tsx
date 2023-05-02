@@ -42,9 +42,9 @@ const Partners = () => {
             <div className='container mx-auto pb-[60px]'>
                 <div className='flex items-center justify-center flex-col'>
                     <img src="/../assets/company.svg" alt="" />
-                    <h1 className='font-montserrat text-[#2C2C2C] text-[40px] font-bold leading-[48.76px]'>Our Partner Companies</h1>
+                    <h1 className='font-montserrat text-[#2C2C2C] text-center text-[40px] font-bold leading-[48.76px]'>Our Partner Companies</h1>
                 </div>
-                <div className='grid grid-cols-8 mt-[50px]'>
+                <div className='grid md:grid-cols-4 lg:grid-cols-8 grid-cols-2 mt-[50px]'>
                     {
                         data.map((item: any, index: number) => (
                             <div key={index} className='flex items-center justify-center flex-col gap-[21px]'>

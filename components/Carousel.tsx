@@ -123,11 +123,11 @@ const Carousel = () => {
                                 alt=""
                             />
 
-                            <div className="absolute left-[50%] top-[50%] transform  translate-x-[-50%] translate-y-[-50%] w-full flex items-center justify-center flex-col">
+                            <div className="absolute left-[50%]  top-[50%] transform  translate-x-[-50%] translate-y-[-50%] w-full flex items-center justify-center flex-col">
                                 {/* <p className="font-madi text-[51.63px] font-normal text-center text-white leading-[68.15px]">Book your Adventure</p> */}
                                 <img src="/../assets/heading.svg" alt="" />
-                                <div className=" mt-[33px] flex items-center bg-white z-40 relative 2xl:max-w-[1283px] xl:w-[1000px] h-[105px] gap-[79px] rounded-[10px] shadow-md">
-                                    <div className="basis-[80%] grid grid-cols-3">
+                                <div className=" mt-[33px]  hidden md:flex items-center bg-white z-40 relative 2xl:max-w-[1283px] xl:w-[1000px] h-[105px] gap-[79px] rounded-[10px] shadow-md">
+                                    <div className="basis-[80%] grid grid-cols-3  ">
                                         <div className="px-[88px]">
                                             <h2 className="text-[#505056] text-[14px] leading-[16.41px] font-medium">Location</h2>
                                             <p className="text-[#5B5B6D] whitespace-pre text-[15px] leading-[17.58px] font-normal mt-[13px] ">What's your Destination ? </p>

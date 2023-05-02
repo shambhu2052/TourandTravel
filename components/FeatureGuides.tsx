@@ -37,7 +37,7 @@ const FeatureGuides = () => {
                     <img src="/../assets/guidetext.svg" alt="" />
                     <h1 className='font-montserrat text-[#2C2C2C] text-[40px] font-bold leading-[48.76px]'>Featured Guides</h1>
                 </div>
-                <div className='grid grid-cols-6 gap-[71px] mt-[50px]'>
+                <div className='grid md:grid-cols-6 grid-cols-2 gap-[71px] mt-[50px] px-[20px] md:px-0 '>
 
                     {
                         data.map((item: any, index: number) => (

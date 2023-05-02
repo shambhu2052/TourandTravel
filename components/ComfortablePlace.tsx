@@ -6,9 +6,9 @@ const ComfortablePlace = () => {
             <div className='container mx-auto pb-[80px]'>
                 <div className='flex items-center justify-center flex-col'>
                     <img src="/../assets/hotel.svg" alt="" />
-                    <h1 className='font-montserrat text-[#2C2C2C] text-[40px] font-bold leading-[48.76px]'>Comfortable Places to Stay</h1>
+                    <h1 className='font-montserrat text-[#2C2C2C] text-[40px] text-center font-bold leading-[48.76px]'>Comfortable Places to Stay</h1>
                 </div>
-                <div className='grid grid-cols-4 gap-[26px] mt-[50px]'>
+                <div className='grid lg:grid-cols-4 md:grid-cols-2 gap-[26px] mt-[50px] px-[15px] md:px-0'>
                     <div className='w-full'>
                         <div className='relative'>
                             <img src="/../assets/place1.png" className='cursor-pointer w-full' alt="" />

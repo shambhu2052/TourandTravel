@@ -5,7 +5,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Ms+Madi&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Explora&family=Montserrat:wght@300;400;600&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 .heading {
     font-family: 'Explora', cursive;
@@ -21,8 +21,115 @@
     background-size: cover;
 }
 
-.guide{
+.guide {
     background: url("/../assets/guide.png");
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media (max-width:480px) {
+    .carousel_btn {
+        display: none !important;
+    }
+}
+.arrowp::before{
+content:"";
+position:absolute;
+border-top:20px solid transparent;
+border-bottom:20px solid transparent;
+border-right:20px solid #484F9B;
+top:0px;
+left:-20px;
+}
+.arrowp::after{
+    content:"";
+    position:absolute;
+    border-top:20px solid transparent;
+    border-bottom:20px solid transparent;
+    border-right:20px solid white;
+    top:0;
+    left:-18px;
+}
+.iconfa{
+    width:22.03px;
+    height:22.03px;
+    color:#5B5B6D;
+}
+.iconins{
+    width:22.03px;
+    height:22.03px;
+    color:#5B5B6D;
+}
+.quote{
+    box-shadow: 0px 4px 20px rgba(0,0,0,0.05);
+}
+.photo{
+    transform:matrix(1,0,0,-1,0,0);
+}
+
+.ant-tabs-nav .ant-tabs-ink-bar-animated{
+    display:none;
+}
+.ant-tabs-tab{
+    color:black;
+    width:319px;
+    height:64px;
+}
+
+.ant-tabs .ant-tabs-tab:hover{
+    width:319px;
+    height:64px;
+    background:#484F9B;
+    color:white;
+    clip-path: polygon(78% 0, 100% 50%, 76% 100%, 0% 100%, 0 53%, 0% 0%);
+}
+.ant-tabs .ant-tabs-tab:active{
+    background:#484F9B;
+    width:319px;
+    height:64px;
+    color:white;
+    clip-path: polygon(78% 0, 100% 50%, 76% 100%, 0% 100%, 0 53%, 0% 0%);
+}
+.ant-tabs .ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn{
+    color:white;
+}
+.ant-tabs-tab-btn{
+    padding:21px 85px;
+}
+.ant-tabs-nav-list{
+    width:950px;
+}
+.person{
+    box-shadow:0px 4px 20px rgba(0,0,0,0.05);
+}
+.ant-tabs-nav-list{
+    transform: translate(-50%, 0px) !important;
+    left: 50% !important;
+}
+.bookinginfo{
+    box-shadow:0px 4px 20px rgba(0,0,0,0.05);
+}
+.personaldetail{
+
+    clip-path: polygon(80% 0, 100% 50%, 83% 100%, 0% 100%, 0 49%, 0% 0%);
+    display:flex;
+    align-items:center;
+    background-color: #484F9B;
+    color:white ;
+}
+.booking{
+    
+    clip-path: polygon(77% 0, 100% 50%, 82% 100%, 0% 100%, 14% 51%, 0% 0%);
+    display:flex;
+    align-items: center;
+    background-color:#484F9B;
+    color:white;
+}
+.payment{
+    
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 14% 51%, 0% 0%);
+    display:flex;
+    align-items:center;
+    background-color:#484F9B;
+    color:white;
 }

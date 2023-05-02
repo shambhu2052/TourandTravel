@@ -5,7 +5,7 @@ const Book = () => {
         [
             {
                 img: "/../assets/guide1.png",
-                name: "Nabin Magar"
+                name: "Nabin Magar" 
             },
             {
                 img: "/../assets/guide2.png",
@@ -41,10 +41,10 @@ const Book = () => {
             <div className='container mx-auto pb-[65px]'>
                 <div className='flex items-center justify-center flex-col'>
                     <img src="/../assets/Book.svg" alt="" />
-                    <h1 className='font-montserrat text-[#2C2C2C] text-[40px] font-bold leading-[48.76px]'>Book a Tour Guide</h1>
+                    <h1 className='font-montserrat text-[#2C2C2C] text-[37px] md:text-[40px] font-bold leading-[48.76px]'>Book a Tour Guide</h1>
                 </div>
-                <div className='flex mt-[30px]'>
-                    <div className='basis-[40%] flex items-center justify-center bg-[#484F9B]'>
+                <div className='lg:flex mt-[30px]  px-[15px] md:px-0 '>
+                    <div className='md:basis-[40%] basis-[100%] flex items-center justify-center bg-[#484F9B]'>
                         <form action="" className='bg-[#484F9B] pt-[35px] pb-[31px] w-full px-[48px]'>
                             <div>
                                 <p className='text-[#F9F9F9] text-[18px] leading-[28.8px] font-normal'>Fullname</p>
@@ -61,7 +61,7 @@ const Book = () => {
                             <button className='w-full bg-[#0A0F4B] h-[67px] flex items-center mt-[42px] justify-center text-[#F9F9F9] text-[18px] leading-[28.8px] font-bold'>Check Availability</button>
                         </form>
                     </div>
-                    <div className='basis-[60%] grid grid-cols-4 gap-x-[70px] guide pl-[99px]'>
+                    <div className='md:basis-[60%] mt-[30px]  lg:mt-0 basis-[100%] grid md:grid-cols-4 grid-cols-2 md:gap-y-[10px] lg:gap-y-[0px] gap-x-[70px] guide lg:pl-[99px]'>
                         {
                             data.map((item: any, index: number) => (
                                 <div key={index} className='flex items-center justify-center flex-col gap-[21px]'>
