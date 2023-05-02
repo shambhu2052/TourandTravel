@@ -16,7 +16,7 @@ function Trackingguide() {
     },
 ]
   return (
-    <div className="w-[230px] h-[190px] rounded-[5px] bg-[#FFFFFF]">
+    <div className="w-full lg:w-[155px] xl:w-[170px] 2xl:w-[230px] h-[210px] 2xl:h-[190px] rounded-[5px] bg-[#FFFFFF]">
         <div className="">
             <h2 className="font-montserrat font-semibold text-[22px] leading-[27px] text-[#2C2C2C] text-center pt-[13px]">Lorem Ipsum</h2>
             <h5 className="font-roboto font-semibold text-[13px] leading-[15px] text-[#53974A] text-center pt-[10px]">Trekking Guide</h5>
