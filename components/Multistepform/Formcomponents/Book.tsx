@@ -11,13 +11,13 @@ function Book() {
             <div className="contact">
            <form>
             <label className="font-roboto font-normal text-lg leading-[29px] text-[#505056] pb-[15px]">Contact</label><br/>
-            <input type="text" className="w-[296px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[60px] bg-[#F9F9F9] rounded-[2px] outline-none"/>
+            <input type="text" className="w-[270px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[60px] bg-[#F9F9F9] rounded-[2px] outline-none"/>
            </form>
             </div>
             <div className="contact">
            <form>
             <label className="font-roboto font-normal text-lg leading-[29px] text-[#505056] pb-[15px]">Contact</label><br/>
-            <input type="text" className="w-[296px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[60px] bg-[#F9F9F9] rounded-[2px] outline-none"/>
+            <input type="text" className="w-[270px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[60px] bg-[#F9F9F9] rounded-[2px] outline-none"/>
            </form>
             </div>
         </div>

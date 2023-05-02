@@ -24,11 +24,11 @@ function Drawers() {
       <Drawer  placement="right" onClose={onClose} open={open}>
       <ul className='flex flex-col items-center gap-[40px]  '>
                         <li className='text-[#5B5B6D] text-[16px] leading-[18.75px] font-medium cursor-pointer hover:text-[#484F9B] transition-colors duration-150 ease-in-out'><Link href="/">Home</Link></li>
-                        <li className='text-[#5B5B6D] text-[16px] leading-[18.75px] font-medium cursor-pointer hover:text-[#484F9B] transition-colors duration-150 ease-in-out'>Travel</li>
+                        <li className='text-[#5B5B6D] text-[16px] leading-[18.75px] font-medium cursor-pointer hover:text-[#484F9B] transition-colors duration-150 ease-in-out'><Link href="/booking">Travel</Link></li>
                         <li className='text-[#5B5B6D] text-[16px] leading-[18.75px] font-medium cursor-pointer hover:text-[#484F9B] transition-colors duration-150 ease-in-out'><Link href="/guides">Guides</Link></li>
-                        <li className='text-[#5B5B6D] text-[16px] leading-[18.75px] font-medium cursor-pointer hover:text-[#484F9B] transition-colors duration-150 ease-in-out'>Tours</li>
-                        <li className='text-[#5B5B6D] text-[16px] leading-[18.75px] font-medium cursor-pointer hover:text-[#484F9B] transition-colors duration-150 ease-in-out'>Hotels</li>
-                        <li className='text-[#5B5B6D] text-[16px] leading-[18.75px] font-medium cursor-pointer hover:text-[#484F9B] transition-colors duration-150 ease-in-out'>News</li>
+                        <li className='text-[#5B5B6D] text-[16px] leading-[18.75px] font-medium cursor-pointer hover:text-[#484F9B] transition-colors duration-150 ease-in-out'><Link href="/tours">Tours</Link></li>
+                        <li className='text-[#5B5B6D] text-[16px] leading-[18.75px] font-medium cursor-pointer hover:text-[#484F9B] transition-colors duration-150 ease-in-out'><Link href="/guides/guidesdetail">Hotels</Link></li>
+                        <li className='text-[#5B5B6D] text-[16px] leading-[18.75px] font-medium cursor-pointer hover:text-[#484F9B] transition-colors duration-150 ease-in-out'><Link href="/tours/details">News</Link></li>
                         <li className='text-[#5B5B6D] text-[16px] leading-[18.75px] font-medium cursor-pointer hover:text-[#484F9B] transition-colors duration-150 ease-in-out'><Link href="/about">About</Link></li>
                     </ul>
       </Drawer>

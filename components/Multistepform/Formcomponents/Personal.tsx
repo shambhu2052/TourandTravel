@@ -14,19 +14,19 @@ function Personal() {
         <div className="form">
           <form>
             <label className="font-roboto font-normal text-lg leading-[28.8px] text-[#505056]  pl-[35px]">Fullname</label><br/>
-            <input type="text" className="w-[280px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[60px] bg-[#F9F9F9] rounded-[2px]  mt-[15px] outline-none" />
+            <input type="text" className="w-[270px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[60px] bg-[#F9F9F9] rounded-[2px]  mt-[15px] outline-none" />
           </form>
         </div>
         <div className="form">
           <form>
             <label className="font-roboto font-normal text-lg leading-[28.8px] text-[#505056] pt-[26px] pl-[35px]">Contact</label><br/>
-            <input type="text" className="w-[280px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[60px] bg-[#F9F9F9] rounded-[2px] mt-[15px] outline-none"/>
+            <input type="text" className="w-[270px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[60px] bg-[#F9F9F9] rounded-[2px] mt-[15px] outline-none"/>
           </form>
         </div>
         </div>  
         <form>
           <label className="font-roboto font-normal text-lg leading-[28.8px] text-[#505056] pl-[35px] pt-[26px]">Any Special Health Considerations</label><br/>
-          <input type="text" className="w-[280px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[121px] bg-[#F9F9F9] rounded-[2px] mt-[15px] ml-[35px] outline-none"/>
+          <input type="text" className="w-[270px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[121px] bg-[#F9F9F9] rounded-[2px] mt-[15px] ml-[35px] outline-none"/>
         </form>
         <div className="flex flex-row justify-center items-center bg-[#53974A] w-[156px] h-[58px] mt-[30px] ml-[35px] ">
          <a href="" className=" flex flex-row justify-center items-center gap-[12.56px] font-roboto font-normal text-[15px] laeding-[24px] text-[#FFFFFF] pl-[5.56px] pr-[10px]"><AiOutlinePlus className="plusicon"/>Add Traveler</a>
@@ -37,15 +37,14 @@ function Personal() {
           <div className="tour">
           <form>
             <label className="font-roboto font-normal text-lg leading-[29px] text-[#505056] pb-[15px]">Tour Date</label><br/>
-            <input type="date" className="w-[280px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[60px] bg-[#F9F9F9] rounded-[2px] pl-[19px] pr-[20px] outline-none"/>
+            <input type="date" className="w-[270px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[60px] bg-[#F9F9F9] rounded-[2px] pl-[19px] pr-[20px] outline-none"/>
           </form>
             </div>
             <div className="place">
               <label className="font-roboto font-normal text-lg leading-[29px] pb-[15px] text-[#505056]">Pickup Place</label><br/>
-              <input type="text" className="w-[280px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[60px] bg-[#F9F9F9] rounded-[2px] outline-none"/>
+              <input type="text" className="w-[270px] md:w-[332px] lg:w-[452px] xl:w-[526px] h-[60px] bg-[#F9F9F9] rounded-[2px] outline-none"/>
             </div>
             </div>
-           
     </div>
     </div>
     </>
