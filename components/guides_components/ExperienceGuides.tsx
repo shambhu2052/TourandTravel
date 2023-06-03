@@ -1,6 +1,6 @@
 import React from 'react'
 import Trackingguide from './Trackingguide'
-
+import Link from 'next/link'
 const ExperienceGuides = () => {
     let ex = [
         {
@@ -35,7 +35,7 @@ const ExperienceGuides = () => {
                 {
                     ex.map((item: any, index: number) => (
                         <div className='h-[362.67px] w-full gap-[26px] cursor-pointer rounded-[5px] relative group' key={index}>
-                            <img src={item.img} className='h-[100%] w-full object-cover rounded-[5px] absolute' alt="" />
+                           <Link href="/guides/guidedetail"><img src={item.img} className='h-[100%] w-full object-cover rounded-[5px] absolute' alt="" /></Link> 
                             <div className="absolute bottom-[20px] left-[24px] mr-[30px] hidden group-hover:block">
                             <Trackingguide/>
                             </div>

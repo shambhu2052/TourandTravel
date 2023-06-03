@@ -4,6 +4,7 @@ import { Rate } from 'antd';
 import ComfortablePlace from '@/components/ComfortablePlace';
 import Book from '@/components/Book';
 import Partners from '@/components/Partners';
+import Link from 'next/link';
 
 // const desc = ['terrible', 'bad', 'normal', 'good', 'wonderful'];
 
@@ -46,14 +47,15 @@ const index = () => {
                             tour.map((item: any, index: number) => (
                                 <div className='flex border border-[#EDEDED]' key={index}>
                                     <div className='basis-[45%] h-[333px] 2xl:h-[294px] relative cursor-pointer'>
-                                        <img src={item.img} alt="" className='h-[100%] w-full object-cover' />
+                                       <Link href="/tours/details"> <img src={item.img} alt="" className='h-[100%] w-full object-cover' /></Link>
                                         <div className='h-[40px] bg-[#484F9B] w-full flex items-center justify-center absolute left-0 bottom-0'>
                                             <p className='text-[15px] font-normal leading-[17.58px] text-center text-white'><span className='text-[20px] font-bold mr-[8px]'>$20</span>/Per Person</p>
                                         </div>
                                     </div>
                                     <div className='basis-[55%] pl-[26px] pt-[20px]'>
+                                        <Link href="/tours/details">
                                         <h1>Annapurna Base Camp - EBC</h1>
-                                        <p>Bali, Earth</p>
+                                        <p>Bali, Earth</p></Link>
                                         <span>
                                             <Rate onChange={setValue} value={value}/>
                                             {/* {value ? <span className="ant-rate-text"></span> : ''} */}
@@ -72,11 +74,12 @@ const index = () => {
                                                 <p className='text-[#505056] text-[13px] leading-[15.23px] font-normal tracking-[0.01em]'>5 People</p>
                                             </div>
                                         </div>
+                                        <Link href="/booking">
                                         <div className='flex items-center gap-[6px] mt-[80.5px] mr-[16px] cursor-pointer float-right bg-[#F9F9F9] h-[37px] w-[103px] justify-center'>
                                             <h2 className='text-[#484F9B] text-[13px] leading-[15.23px] font-normal tracking-[0.01em]'>Book Now</h2>
                                             <img src="/../assets/tours/arrow.svg" alt="" />
                                         </div>
-
+                                          </Link>  
                                     </div>
                                 </div>
                             ))

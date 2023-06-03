@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const Book = () => {
     let data =
         [
@@ -65,7 +65,7 @@ const Book = () => {
                         {
                             data.map((item: any, index: number) => (
                                 <div key={index} className='flex items-center justify-center flex-col gap-[21px]'>
-                                    <img src={item.img} className='cursor-pointer h-[150px] w-[150px]' alt="" />
+                                  <Link href="/guides/guidedetail"><img src={item.img} className='cursor-pointer h-[150px] w-[150px]' alt="" /></Link>  
                                     <h2 className='text-[#5B5B6D] text-[20px] leading-[23.44px] font-normal '>{item.name}</h2>
                                 </div>
                             ))

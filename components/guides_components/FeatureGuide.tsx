@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Link from 'next/link'
 const FeatureGuide = () => {
     let guide = [
         {
@@ -31,7 +31,7 @@ const FeatureGuide = () => {
                     guide.map((item: any, index: number) => (
                         <div className='cursor-pointer px-[5%] md:px-[0%]'>
                             <div className=' h-[380px] w-full'>
-                                <img src={item.img} className='h-[100%] w-full object-cover' alt="" />
+                              <Link href="/guides/guidedetail"> <img src={item.img} className='h-[100%] w-full object-cover' alt="" /></Link> 
                             </div>
                             <h2 className='mt-[15px] text-[#2C2C2C] text-[18px] leading-[21.94px] font-semibold font-montserrat '>{item.name}</h2>
                         </div>

@@ -133,3 +133,123 @@ left:-20px;
     background-color:#484F9B;
     color:white;
 }
+.team{
+    box-shadow:0px 4px 40px rgba(0,0,0,0.05);
+}
+.ant-collapse{
+    background-color:white;
+    border:none !important;
+}
+@media (min-width:1536px){
+    .ant-collapse{
+        width:856px;
+    }
+}
+.ant-collapse-content{
+    border-radius:10px;
+}
+.ant-collapse-header-text{
+    font-family:Monsterrat;
+    font-weight:600;
+    font-size:17px;
+    line-height:24.38px;
+    color:#2C2C2C;
+    padding-left:1px;
+    background-color:white;
+    padding-top:15px;
+    padding-bottom:15px;
+}
+@media (min-width:780px){
+    .ant-collapse-header-text{
+        font-size:20px;
+        padding-left:13px;
+    }
+}
+.ant-collapse-content-box{
+    font-family:Roboto;
+    font-weight:400;
+    font-size:15px;
+    line-height:34.2px;
+    color:#505056;
+    padding-top:36px !important;
+    padding-left:27px !important;
+    max-width:672px ;
+}
+@media (min-width:780px){
+    .ant-collapse-content-box{
+        font-size:18px;
+        padding-left:40px !important;
+    }
+}
+.ant-collapse-content{
+    border:none !important;
+}
+.ant-collapse-header .ant-collapse-arrow {
+    display:none !important;
+}
+/*
+.ant-collapse-header-text::after{
+    content:'+';
+    color:#ABABAB;
+    width:29.75px;
+    height:4.62px;
+    font-size:30px;
+    margin-left:10px;
+}
+@media (min-width:344px){
+    .ant-collapse-header-text::after{
+        margin-left:10px;
+    }
+}
+@media (min-width:780px){
+    .ant-collapse-header-text::after{
+        margin-left:258px;
+    }
+}
+
+@media (min-width:1024px){
+    .ant-collapse-header-text::after{
+        margin-left:28px;
+    }
+}
+@media (min-width:1280px){
+    .ant-collapse-header-text::after{
+        margin-left:122px;
+    }
+}
+@media (min-width:1536px){
+    .ant-collapse-header-text::after{
+        margin-left:300px;
+    }
+}
+*/
+/*
+.ant-collapse-header-text::after{
+    content:'-';
+    color:#ABABAB;
+    font-size:30px;
+    margin-left:340px;
+    display:
+}
+*/
+.ant-collapse-item{
+    background-color: white;
+    box-shadow:0px 3px 30px rgba(0,0,0,0.05);
+    border-radius:10px;
+    border:none !important;
+}
+.asked{
+    box-shadow:0px 3px 30px rgba(0,0,0,0.05);
+}
+.minus{
+    margin-top:34.57px;
+    margin-right:52.63px;
+    font-size:28px;
+    color:#ABABAB;
+}
+.plus{
+    margin-top:34.57px;
+    margin-right:28.63px;
+    font-size:20px;
+    color:#ABABAB;
+}
